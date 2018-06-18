@@ -1,0 +1,100 @@
+/*!
+ * Start Bootstrap - Full Slider (https://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+ 
+	.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	 	margin-top: 50px;
+        display: block;
+        height: 500px;
+        min-width: 100%;
+        width: 100%;
+        max-width: 100%;
+        line-height: 1;
+		background-image: url('../images/sky.jpg');
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+		background-size: cover;
+    }
+	.bg-dark{
+		background-color:#333;
+		color:#CCC;
+	}
+	/* Mobile */
+	@media (max-width: 767px) {
+		.slider-size {
+			height: auto;
+		}
+		.slider-size > img {
+			 width: 80%;
+		}
+	}
+
+	/* tablets */
+	@media (max-width: 991px) and (min-width: 768px) {
+		.slider-size {
+			height: auto;
+		}
+		.slider-size > img {
+			width: 80%;
+		}
+	}
+
+	/* laptops */
+	@media (max-width: 1023px) and (min-width: 992px) {
+		.slider-size {
+			 height: 200px;
+		}
+		.slider-size > img {
+			width: 80%;
+		}
+	}
+
+	/* desktops */
+	@media (min-width: 1024px) {
+		.slider-size {
+			height: 300px;
+		}
+		.slider-size > img {
+			width: 60%;
+		}
+	}
+	.default-bullet li, .custom-bullet li {
+		display: block;
+	}
+	.custom-bullet li:before {
+		/*Using a Bootstrap glyphicon as the bullet point*/
+		content: "\e080";
+		font-family: 'Glyphicons Halflings';
+		font-size: 9px;
+		float: left;
+		margin-top: 4px;
+		margin-left: -17px;
+		color: #CCCCCC;
+	}
+	.default-bullet li:before {
+		/*Using a Bootstrap glyphicon as the bullet point: content: "\e013"; content: "\e014";*/
+		content: "\e067"; 
+		font-family: 'Glyphicons Halflings';
+		font-size: 9px;
+		float: left;
+		margin-top: 4px;
+		margin-left: -17px;
+		color: #CCCCCC;
+	}	
+	ul { margin:-15px 0;}
+	.panel, .panel-body{border: 0; box-shadow: none;}
+	.manual ul li span {
+		display: inline-block;  
+		vertical-align: middle;     
+	}
+
+	.manual ul li:before{
+		content: '';
+		display: inline-block;
+		vertical-align: middle;
+		height: 100%;       
+	}
+	
